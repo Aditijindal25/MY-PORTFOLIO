@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(120deg, #3ad6ff, #7c5cff);
+      color: #222;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    }
+    /* Header layout */
+    .header {
+      display: flex;
+      align-items: flex-start;
+      gap: 25px;
+    }
+    .photo {
+      width: 180px;
+      height: 180px;
+      border-radius: 12px; /* square with slightly rounded corners */
+      overflow: hidden;
+      border: 4px solid #7c5cff;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .info {
+      flex: 1;
+    }
+    .info h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #333;
+    }
+    .info h3 {
+      margin: 5px 0;
+      font-size: 18px;
+      font-weight: normal;
+      color: #555;
+    }
+    .location {
+      font-size: 14px;
+      color: #777;
+    }
+    .about {
+      margin-top: 12px;
+      font-size: 15px;
+      line-height: 1.6;
+      color: #444;
+    }
+    /* Section titles */
+    h2 {
+      border-left: 6px solid #7c5cff;
+      padding-left: 10px;
+      margin-top: 40px;
+      color: #333;
+    }
+    /* Hobbies */
+    .hobby {
+      margin: 10px 0;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 14px;
+      background: #f5f5f5;
+      border-radius: 8px;
+    }
+    .stars {
+      color: goldenrod;
+      font-size: 18px;
+    }
+    /* Contact */
+    .contact p {
+      margin: 8px 0;
+    }
+    .contact a {
+      color: #7c5cff;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+    <!-- Header -->
+    <div class="header">
+      <div class="photo">
+        <img src="ADITI.jpg" alt="My Photo">
+      </div>
+      <div class="info">
+        <h1>Your Name</h1>
+        <h3>B.Tech in CSIT,KIET GROUP OF INSTITUTIONS</h3>
+        <p class="location">📍 GAZIABAD, India</p>
+        <p class="about">
+          I am a passionate learner exploring web development and technology. 
+          I enjoy building creative projects and continuously improving my skills.
+        </p>
+      </div>
+    </div>
+
+    <!-- Hobbies -->
+    <h2>My Hobbies</h2>
+    <div class="hobby">
+      <span>Travelling</span>
+      <span class="stars">⭐⭐⭐</span>
+    </div>
+    <div class="hobby">
+      <span> Public Speaking </span>
+      <span class="stars">⭐⭐</span>
+    </div>
+    <div class="hobby">
+      <span>💻 Coding</span>
+      <span class="stars">⭐⭐⭐⭐</span>
+    </div>
+    <div class="hobby">
+      <span>📚 Reading</span>
+      <span class="stars">⭐⭐⭐</span>
+    </div>
+
+    <!-- Contact -->
+    <h2>Contact Me</h2>
+    <div class="contact">
+      <p>📧 Email: <a href="mailto:aditi.25005015@kiet.edu">aditi.25005015@kiet.edu</a></p>
+      <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/aditi-jindal-90a089380/" target="_blank">linkedin.com/in/yourprofile</a></p>
+      <p>💻 GitHub: <a href="https://github.com/Aditijindal25" target="_blank">https://github.com/Aditijindal25</a></p>
+    </div>
+
+  </div>
+</body>
+</html>
